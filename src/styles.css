@@ -1,0 +1,22 @@
+button {
+	width: 193px;
+	height: 61px;
+	border-radius: 25px;
+	position: absolute;
+	top: 44%;
+	left: 44%;
+	background: rgb(182,224,38);
+	background: -moz-linear-gradient(top, rgba(182,224,38,1) 0%, rgba(92,163,0,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(182,224,38,1)), color-stop(100%,rgba(92,163,0,1)));
+	background: -webkit-linear-gradient(top, rgba(182,224,38,1) 0%,rgba(92,163,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(182,224,38,1) 0%,rgba(92,163,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(182,224,38,1) 0%,rgba(92,163,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(182,224,38,1) 0%,rgba(92,163,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6e026', endColorstr='#5ca300',GradientType=0 );
+	color: white;
+	font-size: 23px;
+}
+
+body {
+	-webkit-transition: background-color ease 190ms;
+}
